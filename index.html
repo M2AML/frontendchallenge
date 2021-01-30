@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Frontend Mentor | FAQ Accordion Card</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <img src="./images/illustration-box-desktop.svg" alt="illustration-box" class="box">
+        <div class="fqa-card">
+            <div class="imgs">
+                <img src="./images/bg-pattern-desktop.svg" alt="pattern-desktop">
+                <img class="mobile" src="./images/bg-pattern-mobile.svg" alt="pattern-mobile">
+                <img src="./images/illustration-woman-online-desktop.svg" alt="illustration-woman-online">
+            </div>
+            <div class="fqa">
+                <h1>FAQ</h1>
+                <ul>
+                    <li>
+                        <h2>How many team members can I invite? <img class="arrow" src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></h2>
+                        <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members
+                            for the Premium plan.</p>
+                    </li>
+                    <li>
+                        <h2 class="h2-active">What is the maximum file upload size? <img class="arrow rotate" src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></h2>
+                        <p class="active">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                    </li>
+                    <li>
+                        <h2>How do I reset my password? <img class="arrow" src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></h2>
+                        <p>Click “Forgot password” from the login page or “Change password” from your profile page. A
+                            reset link will be emailed to you.</p>
+                    </li>
+                    <li>
+                        <h2>Can I cancel my subscription? <img class="arrow" src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></h2>
+                        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+                    </li>
+                    <li>
+                        <h2>Do you provide additional support? <img class="arrow" src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></h2>
+                        <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
 </body>
+
 </html>
